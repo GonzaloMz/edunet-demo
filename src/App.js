@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams} from "react-router";
 import logo from './logo.svg';
 import './App.css';
 import {
@@ -10,12 +11,19 @@ import {
 import ReactSVG from 'react-svg';
 
 
+const beforeInjection = (svg)=>{
+	svg.setAttribute("width","18px");
+	svg.setAttribute("height","18px");
+	}
+
 const afterInjection = (error, svg) => {
 	if (error) {
 		console.error(error)
 			return
 	}
 	console.log(svg);
+	svg.setAttribute("width","");
+	svg.setAttribute("height","");
 	let actionables = document.getElementsByClassName('actionable');
 		console.log(actionables);
 		if(actionables.length===0)return;
@@ -35,10 +43,14 @@ const afterInjection = (error, svg) => {
 
 
 const Home = () => {
+	let { id } = useParams();
+	if (!id) id="HOME V1.svg"
+	id=`../screens/${id}.svg`;
 	return (
 			<ReactSVG 
 			afterInjection={afterInjection}
-			src="../screens/home.svg"></ReactSVG>
+			src={id}
+			className="fadeIn animated w-100"></ReactSVG>
 		);	
 }
 
@@ -46,13 +58,10 @@ function App() {
 	return (
 			<div className="App">
 			<Router>
-			<header className="App-header">
 			<Switch>
-			<Route exact path="/">
-			<Home />
+			<Route path="/:id" component={Home}>
 			</Route>
 			</Switch>
-			</header>
 			</Router>
 			</div>
 	       );
