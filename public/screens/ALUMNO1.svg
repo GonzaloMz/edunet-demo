@@ -44,9 +44,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="44.651045"
-     inkscape:cy="218.27341"
+     inkscape:zoom="1.4"
+     inkscape:cx="152.94241"
+     inkscape:cy="435.02978"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -67,7 +67,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -86,14 +86,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.88055563px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#434059;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-92.863701"
+       x="-103.72068"
        y="90.226082"
        id="text501"><tspan
          sodipodi:role="line"
          id="tspan499"
-         x="-92.863701"
+         x="-103.72068"
          y="90.226082"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.88055563px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#434059;fill-opacity:1;stroke-width:0.26458332">ASISTENCIA</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.88055563px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#434059;fill-opacity:1;stroke-width:0.26458332">REGISTRAR ASISTENCIA</tspan></text>
     <g
        id="g507"
        transform="matrix(0.34365897,0,0,0.34365897,-125.85185,84.688068)">
@@ -409,11 +409,11 @@
        id="text1432"><tspan
          sodipodi:role="line"
          id="tspan1430"
-         x="-82.092949"
+         x="-82.092934"
          y="166.08916"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.52777767px;line-height:1.10000002;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0.13229167px;writing-mode:lr-tb;text-anchor:middle;fill:#f8f8f8;fill-opacity:1;stroke-width:0.26458332">PORCENTAJE DE ASISTENCIA CUMPLIDA</tspan><tspan
          sodipodi:role="line"
-         x="-82.092949"
+         x="-82.092934"
          y="170.96278"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.58611107px;line-height:1.10000002;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0.13229167px;writing-mode:lr-tb;text-anchor:middle;fill:#f8f8f8;fill-opacity:1;stroke-width:0.26458332"
          id="tspan1436">91,5%</tspan></text>
