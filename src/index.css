@@ -10,9 +10,14 @@ body {
   -khtml-user-select:none;
   -webkit-user-select:none;
   -webkit-touch-callout:none;
+  background-color:#f8f8f8;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+g.float {
+	display:none;
 }
