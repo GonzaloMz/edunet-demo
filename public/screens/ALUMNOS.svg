@@ -1003,8 +1003,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.9899495"
-     inkscape:cx="88.249029"
-     inkscape:cy="780.71533"
+     inkscape:cx="-92.063199"
+     inkscape:cy="619.09092"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1160,7 +1160,9 @@
     </g>
     <g
        id="g1175"
-       transform="translate(-133.49272,-179.07524)">
+       transform="translate(-133.49272,-179.07524)"
+       class="actionable"
+       target="BOLETIN">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#36334d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
